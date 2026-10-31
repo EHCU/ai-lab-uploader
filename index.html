@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ai-lab uploader</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#5f5e5a; --line:#e3e0d8; --link:#1f5fa8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161615; --fg:#ecebe6; --muted:#a3a29c; --line:#2f2e2b; --link:#8ab4f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; } h2 { font-size:19px; margin:32px 0 8px; }
+  .sub { color:var(--muted); margin:0 0 24px; } a { color:var(--link); }
+  ul { padding-left:20px; } footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ai-lab uploader</h1>
+  <p class="sub">A private publishing tool for three YouTube channels owned by Reha Yavuz.</p>
+
+  <h2>What it is</h2>
+  <p>ai-lab uploader is a command-line tool that runs on its owner's own computer. It uploads finished videos
+  to the owner's own YouTube channels using the YouTube Data API v3:</p>
+  <ul>
+    <li>All Weapons Hot (<a href="https://www.youtube.com/@AllWeaponsHot">@AllWeaponsHot</a>)</li>
+    <li>The Chapter They Skipped (<a href="https://www.youtube.com/@TheChapterTheySkipped">@TheChapterTheySkipped</a>)</li>
+    <li>The Next Move (<a href="https://www.youtube.com/@TheNextMove-d6j">@TheNextMove-d6j</a>)</li>
+  </ul>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Uploads a video file with its title, description, tags, category, language and publish time.</li>
+    <li>Sets "made for kids" to No and declares altered or synthetic content where it applies.</li>
+    <li>Uploads the video's English caption file and custom thumbnail.</li>
+    <li>Checks that it is signed in to the intended channel before uploading anything.</li>
+  </ul>
+
+  <h2>Who can use it</h2>
+  <p>Only its owner. It is not offered to the public, has no other users, no website login and no paid plans.
+  It does not read, store, analyse or display any other YouTube data.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> &middot; Contact: <a href="mailto:rehayavuz.media@gmail.com">rehayavuz.media@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
